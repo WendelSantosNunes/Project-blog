@@ -6,3 +6,17 @@ def index(request):
         request,
         'blog/pages/index.html'
     )
+
+# Create your views here.
+def page(request):
+    return render(
+        request,
+        'blog/pages/page.html'
+    )
+
+# Create your views here.
+def post(request):
+    return render(
+        request,
+        'blog/pages/post.html'
+    )
